@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: 300 11px/1.4 'Coolvetica', sans-serif;
   background-color: #52acff;
-  background-image: linear-gradient(180deg, #52acff 25%, #ffe32c 100%);
+  /* background-image: linear-gradient(180deg, #52acff 25%, #ffe32c 100%); */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
