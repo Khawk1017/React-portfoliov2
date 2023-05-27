@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
-
-.nav-conatiner {
+.nav-container {
     width: 100%;
     display: inline-block;
 }
@@ -12,31 +10,28 @@ nav {
     top: 0;
     width: 100%;
 
-    ul{
+    ul {
         text-align: center;
-        list-style-type: none;
         list-style-type: none;
         margin: 0;
         padding: 15px;
 
-        li{
+        li {
             display: inline;
-            font-family: "Fira Sans", sans-serif;
+            font-family: 'Coolvetica';
             font-size: 17px;
+            color: #f2f2f2;
+            text-decoration: none;
+            padding: 14px;
+            
+            a {
+                text-decoration: none;
+                color: #f2f2f2;
+            }
 
-            // a {
-            //     color: $primary-color;
-            //     text-decoration: none;
-            //     padding: 14px;
-// need to render components to view the styling 
-            //     &:hover {
-            //         background-color: #111;
-            //     }
-            // }
+            &:hover {
+                background-color: #111;
+            }
         }
     }
-}
-
-.content {
-    text-align: center;
 }
