@@ -16,4 +16,14 @@
         animation: fadeIn 1s 1s;
         animation-fill-mode: forwards;
     }
+
+    .home-text {
+        color: #6f7378;
+        opacity: 0;
+        animation: fadeInUp 1s 1.2s;
+        animation-fill-mode: forwards;
+        font-size: 20px;
+        font-family: 'Coolvetica';
+        letter-spacing: 1px;
+    }
 }
