@@ -11,23 +11,9 @@ const Projects = () => {
             <div className="projects__bio-image">
                 <h1 className="text-secondary">My Projects</h1>
             </div>
-            
-            <div className="projects__items">
-                <div className="projects__item">
-                    <img src={Jate}  alt='jate'/>
-                </div>
+            <div className='image-container'>
+                <img src={Jate} alt='jate' />
             </div>
-            <div className="projects__items">
-                <div className="projects__item">
-                    <img src={NoteTaker}  alt='jate'/>
-                </div>
-            </div>
-            <div className="projects__items">
-                <div className="projects__item">
-                    <img src={Password2}  alt='jate'/>
-                </div>
-            </div>
-            
            </div>
             <Loader type='pacman' />
         </>
