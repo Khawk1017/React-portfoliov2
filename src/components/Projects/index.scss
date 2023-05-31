@@ -1,60 +1,22 @@
+img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
 .projects {
-    padding-bottom: 2rem;
-    opacity: 0;
-    animation: fadeIn 1s 1s;
-    animation-delay: 1.2s;
-    animation-fill-mode: forwards;
-  
-    &__bio-image {
-      margin-top: 3rem;
-      height: 15vh;
-      width: 100%;
-      background:
-        linear-gradient(
-          to right,
-          rgba(#ffd700, 0.9),
-          rgba(#ffd700, 0.3)
-        ),
-        url('../../assets/img/command.jpeg') center top;
-      background-size: cover;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-end;
-  
-      .text-secondary {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-        font-family: 'Coolvetica';
-        font-weight: 400;
-        color: #fff;
-      }
-    }
-  
-    &__container {
-      padding-top: 5rem; /* Add padding to create space below the navigation bar */
-      padding-bottom: 5rem; /* Add padding to create space above the footer */
-  
-      &__items {
-        width: 60vh;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 2rem;
-  
-        .projects__item {
-          position: relative;
-          border-bottom: 5px solid #ffd700;
-          overflow: hidden;
-          cursor: pointer;
-  
-          img {
-            width: 100%;
-            height: 100%; /* Adjust the image height to fill the grid item */
-            object-fit: cover; /* Maintain aspect ratio and crop if necessary */
-          }
-        }
-      }
-    }
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+
+ 
+  .project-item {
+    position: relative;
+    max-width: 400px;
+    height: 250px;
+    margin: 2.5em 5em;
   }
   
+  
+}
+
