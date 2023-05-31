@@ -2,12 +2,21 @@ img {
   height: 100%;
   width: 100%;
   position: relative;
+  border-bottom: 5px solid #ffd700;
+
+  
 }
 
 .projects {
   margin-top: 5rem;
   display: flex;
   flex-wrap: wrap;
+  opacity: 0;
+  animation: fadeInDown 1s 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+  overflow: hidden;
+  
 
  
   .project-item {
@@ -15,6 +24,23 @@ img {
     max-width: 400px;
     height: 250px;
     margin: 2.5em 5em;
+    text-align: center;
+    cursor: pointer;
+
+
+    &:hover {
+      transition: all 0.5s ease-in-out;
+      background-color: #ffd700;
+     
+    }
+    
+    
+
+    h2 {
+      color: #fff;
+      font-size: 25px;
+      font-family: sans-serif;
+    }
   }
   
   
