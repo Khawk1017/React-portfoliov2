@@ -16,6 +16,26 @@ img {
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
   overflow: hidden;
+
+  a {
+    font-size: 17px;
+    padding: 10px;
+    opacity: 0;
+    animation: fadeIn 1s 1.2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2.1s;
+
+    i {
+      transition: all 0.3s ease-in-out;
+    }
+
+    &:hover {
+
+      svg {
+        color: #fff;
+      }
+    }
+  }
   
 
  
@@ -23,9 +43,9 @@ img {
     position: relative;
     max-width: 400px;
     height: 250px;
-    margin: 2.5em 5em;
+    margin: 3.5em 5em;
     text-align: center;
-    cursor: pointer;
+    // cursor: pointer;
 
 
     &:hover {
