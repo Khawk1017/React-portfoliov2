@@ -9,7 +9,9 @@ img {
 
 .projects {
   margin-top: 5rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
   flex-wrap: wrap;
   opacity: 0;
   animation: fadeInDown 1s 1s;
@@ -45,6 +47,8 @@ img {
     height: 250px;
     margin: 3.5em 5em;
     text-align: center;
+    padding-bottom: 1.5rem;
+    box-sizing: border-box;
     // cursor: pointer;
 
 
