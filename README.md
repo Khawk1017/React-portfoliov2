@@ -4,6 +4,9 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
+## Link 🔗
+visit the site here: https://khawk1017.github.io/ 
+
 ## Description 🖋️
 
 This is my portfolio built using the React framework
