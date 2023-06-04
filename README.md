@@ -5,7 +5,7 @@
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
 ## Link 🔗
-visit the site here: https://khawk1017.github.io/ 
+visit the site here: [https://khawk1017.github.io/ ](https://khawk1017.github.io/React-portfoliov2/)
 
 ## Description 🖋️
 
